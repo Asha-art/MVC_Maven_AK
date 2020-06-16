@@ -48,6 +48,6 @@ To compile and package your application as JAR file
 Make sure you have the Java Language Extention Pack installed
 In the Explorer sidebar, you should see a small window called "Maven Projects" where your Maven project is located.
 Right click on it and select "compile" - this runs all of your code through the javac and creates .class files out of your .java files. You should see a "Build Succeded" message in your terminal when your app is done compiling.
-Right click on your Maven project again and select "package". This will take your compiled code and zip it up into one complete package. You should see "Build Succeded" in your terminal again.
+Right click on your Maven project again and select "package". This will take your compiled code and zip it up into one complete package. You should see "Build Succeded" in your terminal again. Build succed
 If your app was successfully packaged, you should have a JAR file inside your target folder named as `artifactID-Version.jar'.
 To run this app, just run java -jar /target/filename.jar that was just created. You should see the output "Hello world!" in the terminal!
